@@ -13,6 +13,7 @@
 		BC31D32A1C802272003A3332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC31D3281C802272003A3332 /* Main.storyboard */; };
 		BC31D32C1C802272003A3332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC31D32B1C802272003A3332 /* Assets.xcassets */; };
 		BC31D32F1C802272003A3332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC31D32D1C802272003A3332 /* LaunchScreen.storyboard */; };
+		BC31D3391C8025B2003A3332 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31D3381C8025B2003A3332 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC31D32B1C802272003A3332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC31D32E1C802272003A3332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC31D3301C802272003A3332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC31D3371C8025B2003A3332 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BC31D3381C8025B2003A3332 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		BC31D31E1C802272003A3332 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BC31D3361C80258F003A3332 /* A */,
 				BC31D3221C802272003A3332 /* AppDelegate.h */,
 				BC31D3231C802272003A3332 /* AppDelegate.m */,
 				BC31D3251C802272003A3332 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				BC31D3201C802272003A3332 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC31D3361C80258F003A3332 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				BC31D3371C8025B2003A3332 /* Person.h */,
+				BC31D3381C8025B2003A3332 /* Person.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			files = (
 				BC31D3271C802272003A3332 /* ViewController.m in Sources */,
 				BC31D3241C802272003A3332 /* AppDelegate.m in Sources */,
+				BC31D3391C8025B2003A3332 /* Person.m in Sources */,
 				BC31D3211C802272003A3332 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +312,7 @@
 				BC31D3351C802272003A3332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
